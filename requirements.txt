@@ -1,10 +1,14 @@
 flask
+flask-cors
 flask-restful
 flask-sqlalchemy
-pymysql
 flask-migrate
 flask-script
+pymysql
 flask-jwt-extended
 requests
 pytest
-werkzeug
+pytest-cov
+werkzeug==0.16.0
+
+# asasa

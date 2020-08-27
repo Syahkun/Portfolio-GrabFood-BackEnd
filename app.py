@@ -23,4 +23,4 @@ if __name__ == '__main__':
         log_handler.setFormatter(formatter)
         app.logger.addHandler(log_handler)
 
-        app.run(debug=app.config['DEBUG'], host='0.0.0.0', port=5000)
+        app.run(debug=app.config['DEBUG'], host='0.0.0.0', port=5050)
